@@ -1,0 +1,12 @@
+package_rename_config:
+  android:
+    app_name: AutiCare
+    package_name: com.akameisk.auticare
+    override_old_package: # (Optional) (String) Use this to delete the old folder structure of MainActivity or to use the existing code with the new package name
+    lang: # (Optional) (String) The android development language {kotlin(default) or java}
+
+  web:
+    app_name: Autism Care Management Application
+    short_app_name: AutiCare
+    description: The application provide autism centre management tools between parents and caretaker company
+

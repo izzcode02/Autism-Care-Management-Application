@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "115287403770",
+    "project_id": "autism-care-management-app",
+    "storage_bucket": "autism-care-management-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:115287403770:android:6471ee74638d16db452d43",
+        "android_client_info": {
+          "package_name": "com.akameisk.auticare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "115287403770-kfi82bfr9q8u6tfe495usuk1efefa0qt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.akameisk.auticare",
+            "certificate_hash": "5e995525b44d2c84dd80153ab7ca345618871d26"
+          }
+        },
+        {
+          "client_id": "115287403770-d3u1qkvok9dbqa30qfa0ge1dvt12ers4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEk133BySBdXU1_SHsfLGM9ym9Z2Vb0pU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "115287403770-d3u1qkvok9dbqa30qfa0ge1dvt12ers4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "115287403770-us75n9ib7p3tlrdu38mbjkir39jso7as.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.autismCareManagementApplication"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
