@@ -32,7 +32,9 @@ migrate_working_dir/
 .pub-cache/
 .pub/
 /build/
-.env
+mobile/build/
+**/.env
+**/*.env
 firebase_options.dart
 firebase.json
 data/repository/autism-care-management-app-firebase-adminsdk-fbsvc-462a8123ab.json
