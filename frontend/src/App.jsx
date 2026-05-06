@@ -125,6 +125,7 @@ function Header() {
     { label: 'Aplikasi', href: '#showcase' },
     { label: 'Tentang', href: '#about' },
     { label: 'Hubungi', href: '#contact' },
+    { label: 'Muat Turun', href: '#download'},
   ]
 
   return (
@@ -136,7 +137,7 @@ function Header() {
     >
       <div className="container header-inner">
         <a href="#" className="logo">
-          <div className="logo-icon-box"><IconShield /></div>
+          <div className="logo-icon-box"><img src='/public/logo.png'></img></div>
           <span className="logo-text">AutiCare</span>
         </a>
 
@@ -146,7 +147,7 @@ function Header() {
 
         <div className="header-actions">
           <a href="#download" className="btn btn-emerald" style={{ padding: '10px 22px', fontSize: 13 }}>
-            Muat Turun
+            Log Masuk Admin
           </a>
           <button className="menu-toggle" onClick={() => setOpen(o => !o)}>
             {open ? <IconX /> : <IconMenu />}
@@ -188,7 +189,7 @@ function Hero() {
             <motion.div variants={fadeUp} className="hero-eyebrow">
               <div className="badge-gold">
                 <div className="pulse-dot" />
-                Final Year Project · UiTM 2025
+                AutiCare: Autism Care Management Mobile Application
               </div>
             </motion.div>
 
@@ -634,7 +635,7 @@ function Footer() {
     <footer className="footer">
       <div className="container footer-inner">
         <div className="footer-brand">
-          <div className="footer-brand-icon"><IconShield /></div>
+          <div className="footer-brand-icon"><img src='./public/logo.png'></img></div>
           <span className="footer-brand-name">AutiCare</span>
         </div>
 

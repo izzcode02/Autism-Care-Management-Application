@@ -268,9 +268,8 @@ img { max-width: 100%; height: auto; }
   text-decoration: none;
 }
 .logo-icon-box {
-  width: 36px;
-  height: 36px;
-  background: var(--emerald);
+  width: 48px;
+  height: 48px;
   border-radius: 8px;
   display: flex;
   align-items: center;
@@ -946,9 +945,8 @@ img { max-width: 100%; height: auto; }
   gap: 10px;
 }
 .footer-brand-icon {
-  width: 32px;
-  height: 32px;
-  background: var(--emerald);
+  width: 128px;
+  height: 128px;
   border-radius: 8px;
   display: flex;
   align-items: center;
