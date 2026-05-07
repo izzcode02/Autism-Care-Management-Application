@@ -11,8 +11,9 @@ const Auth = () => {
           <div className="auth-image-overlay"></div>
           <img
             src="https://images.unsplash.com/photo-1587351021759-3e566b6af7cc?q=80&w=2000&auto=format&fit=crop"
-            alt="Mother and child"
+            alt="Mother and child with autism"
             className="auth-image"
+            loading="eager"
           />
           <div className="auth-quote">
             <p className="quote-text">"Every child deserves understanding, patience, and love."</p>
@@ -80,13 +81,20 @@ const Auth = () => {
       </div>
 
       {showRegisterModal && (
-        <div className="modal-overlay" onClick={() => setShowRegisterModal(false)}>
+        <div
+          className="modal-overlay"
+          onClick={() => setShowRegisterModal(false)}
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby="modal-title"
+        >
           <div className="modal-content" onClick={(e) => e.stopPropagation()}>
             <div className="modal-header">
-              <h2>Create Account</h2>
+              <h2 id="modal-title">Create Account</h2>
               <button
                 className="modal-close"
                 onClick={() => setShowRegisterModal(false)}
+                aria-label="Close modal"
               >
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                   <line x1="18" y1="6" x2="6" y2="18"/>
