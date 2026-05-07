@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from 'react'
+import { Link } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'
 import './App.css'
 
@@ -146,9 +147,9 @@ function Header() {
         </nav>
 
         <div className="header-actions">
-          <a href="#download" className="btn btn-emerald" style={{ padding: '10px 22px', fontSize: 13 }}>
+          <Link to="/auth" className="btn btn-emerald" style={{ padding: '10px 22px', fontSize: 13 }}>
             Log Masuk Admin
-          </a>
+          </Link>
           <button className="menu-toggle" onClick={() => setOpen(o => !o)}>
             {open ? <IconX /> : <IconMenu />}
           </button>
